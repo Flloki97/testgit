@@ -9,9 +9,11 @@
 </head>
 <body>
     <h1>Hello World, from Florent</h1>
-    <iframe src="https://htmlcheatsheet.com/" width="1000px" height="1000px">
-
-    </iframe>
+    <form>
+        <label for="choose">Would you prefer a banana or a peach? (required)</label>
+        <input id="choose" name="i-like" required pattern="[Bb]anana | [Cc]herry" />
+        <button>Submit</button>
+    </form>
     <script src="js/script.js"></script>
 </body>
 </html>
